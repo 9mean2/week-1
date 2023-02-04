@@ -7,7 +7,6 @@ function App() {
   console.log("id", id);
   console.log("password", password);
 
-  //id 필드가 변경될 경우
   const onIdChaneHandler = (event) => {
     setId(event.target.value);
   };
